@@ -5,7 +5,7 @@ angular
             $scope.formData = {};
             $scope.isProcessing = false;
             $scope.processForm = function() {
-                $scope.formData.userName = 'Admin';
+                $scope.formData.username = 'Admin';
                 $scope.formData.urlImageLogo = '';
                 $scope.formData.language = $translate.use();
                 $scope.showMessage = false;

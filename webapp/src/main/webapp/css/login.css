@@ -60,10 +60,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-h1.welcome {
-    animation: move .5s linear alternate-reverse;
-}
-
 @keyframes move {
     to {
         transform: scale(1.5)
