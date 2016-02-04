@@ -4,6 +4,10 @@
     margin: 0 auto;
 }
 
+h4.form-login-heading {
+  margin-top: 30px;
+}
+
 .form-login .form-login-heading,
 .form-login .checkbox {
     margin-bottom: 10px;
@@ -64,4 +68,24 @@ h1 {
     to {
         transform: scale(1.5)
     }
+}
+
+button.orange {
+    background-color: #EB482A;
+    color: white;
+}
+
+button.orange:hover {
+    color: white;
+    font-weight: bold;
+}
+
+button.blue {
+    background-color: #2C2C40;
+    color: white;
+}
+
+button.blue:hover {
+    color: white;
+    font-weight: bold;
 }
