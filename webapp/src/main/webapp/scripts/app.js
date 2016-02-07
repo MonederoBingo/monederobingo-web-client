@@ -233,7 +233,8 @@ angular
                             controller: 'navCtrl'
                         },
                         content: {
-                            templateUrl: '/templates/home/settings/users/users.html'
+                            templateUrl: '/templates/home/settings/users/users.html',
+                            controller: 'settingsUsersCtrl'
                         },
                         footer: {
                             templateUrl: '/templates/home/footer.html',
@@ -249,7 +250,8 @@ angular
                             controller: 'navCtrl'
                         },
                         content: {
-                            templateUrl: '/templates/home/settings/users/add.html'
+                            templateUrl: '/templates/home/settings/users/add.html',
+                            controller: 'settingsUsersAddCtrl'
                         },
                         footer: {
                             templateUrl: '/templates/home/footer.html',
