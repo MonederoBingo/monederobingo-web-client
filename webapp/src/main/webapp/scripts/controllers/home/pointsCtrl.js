@@ -93,7 +93,7 @@ angular
                 $scope.isProcessing = true;
                 $scope.isError = false;
                 $("#send_button").hide();
-                ApiService.sendRequestToApi('PUT', 'companies/' + Session.user.companyId + "/" + $scope.mapping.client.phone + '/send_promo_sms')
+                ApiService.sendRequestToApi('PUT', 'notification/' + Session.user.companyId + "/" + $scope.mapping.client.phone + '/send_promo_sms')
                     .success(function(data) {
                         console.log(data);
                         $scope.isProcessing = false;
