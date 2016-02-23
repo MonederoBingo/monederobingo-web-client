@@ -48,6 +48,11 @@ img.logo {
     margin-bottom: 20px;
 }
 
+img.welcome_image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 img.loading {
     position: fixed;
     left: 50%;
@@ -71,7 +76,7 @@ h1 {
 }
 
 button.orange {
-    background-color: #EB482A;
+    background-color: #BD2846;
     color: white;
 }
 
@@ -81,7 +86,7 @@ button.orange:hover {
 }
 
 button.blue {
-    background-color: #2C2C40;
+    background-color: #003462;
     color: white;
 }
 
