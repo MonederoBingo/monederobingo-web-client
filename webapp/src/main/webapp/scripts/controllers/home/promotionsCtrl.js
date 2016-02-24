@@ -47,7 +47,7 @@ angular
                 $scope.isProcessing = true;
                 $scope.isError = false;
                 $scope.applyData.promotionConfigurationId = $scope.promotions[idx].promotionConfigurationId;
-                $scope.applyData.phone = $scope.formData.phone;
+                $scope.applyData.phoneNumber = $scope.formData.phone;
                 $scope.applyData.companyId = Session.user.companyId;
                 ApiService.sendRequestToApi('POST', 'promotions', $scope.applyData)
                     .success(function(data) {
