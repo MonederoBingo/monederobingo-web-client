@@ -1,0 +1,9 @@
+#!/bin/bash
+open -a Terminal ../configuration-service/start
+sleep 20s
+open -a Terminal ../discovery-service/start
+sleep 20s
+open -a Terminal ../database-service/start
+open -a Terminal ../authorization-service/start
+open -a Terminal ../points-configuration-service/start
+open -a Terminal ../api-services/start
