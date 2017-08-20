@@ -31,9 +31,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
-                    <url>http://localhost:8080</url>
-                    <port>8080</port>
-                    <server>localhost</server>
+                    <port>${port}</port>
                     <path>/</path>
                 </configuration>
             </plugin>
