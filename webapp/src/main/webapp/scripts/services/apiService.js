@@ -10,10 +10,10 @@ angular
                         url = 'http://test.localhost:9090/';
                         break;
                     case "www.monederobingo.com":
-                        url = 'http://services.monederobingo.com/';
+                        url = 'http://prod.api.monederobingo.com/';
                         break;
                     case "test.monederobingo.com":
-                        url = 'http://test.services.monederobingo.com/';
+                        url = 'http://uat.api.monederobingo.com/';
                         break;
                     default :
                         url = 'http://' + $location.host() + ':9090/';
@@ -32,7 +32,7 @@ angular
                     method: method,
                     url: service.apiUrl() +  service.apiUrlRoot() +   path,
                     data: data,
-                    headers: {'Content-Type': 'application/json', 'Api-Key': apiKey, 'User-Id': userId, 'Language': $translate.use()}
+                    headers: {'Content-Type': 'application/json', 'Api-Key': apiKey, 'User-Id': userId}
                 })
             };
 
@@ -41,7 +41,7 @@ angular
                     method: method,
                     url: service.apiUrl() + path,
                     data: data,
-                    headers: {'Content-Type': 'application/json', 'Language': $translate.use()}
+                    headers: {'Content-Type': 'application/json'}
                 })
             };
             return service;
